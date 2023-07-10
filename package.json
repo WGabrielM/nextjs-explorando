@@ -2,8 +2,13 @@
   "name": "nextjs-explorando",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://github.com/WGabrielM/nextjs-explorando",
+  "author": "Wellington Monteiro <https://github.com/WGabrielM>",
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "next": "^13.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -11,6 +16,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   }
